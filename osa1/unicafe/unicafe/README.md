@@ -1,3 +1,2 @@
-# Fullstack course
+# Unicafe exercises 1.6.-1.11
 
-Unicafe exercises 1.6.-1.11
