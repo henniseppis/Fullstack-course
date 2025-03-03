@@ -1,0 +1,19 @@
+{
+  "persons": [
+    {
+      "name": "Riku",
+      "number": "987",
+      "id": "8e96"
+    },
+    {
+      "id": "996c",
+      "name": "Jee",
+      "number": "12345"
+    },
+    {
+      "id": "8070",
+      "name": "Pöö",
+      "number": "1235"
+    }
+  ]
+}

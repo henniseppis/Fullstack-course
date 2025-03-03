@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -33,30 +33,6 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: blue
-}
-
-h2 {
-  font-size: 2.2em;
-  line-height: 1.1;
-  color: rgb(1, 100, 133)
-}
-
-.notification {
-  background: lightgrey;
-  font-size: 20px;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.success {
-  color: green;
-}
-
-.error {
-  color: red
 }
 
 button {
