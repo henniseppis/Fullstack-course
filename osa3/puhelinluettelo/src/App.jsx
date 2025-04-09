@@ -52,8 +52,22 @@ const App = () => {
       setTimeout(() => {
         setMessage(null)
       }, 3000)
+      setNewName('')
+      setNewNumber('')
       return
     }
+
+    if (newName.length <= 1 || newNumber <=1 ) {
+      setErrorMessage(true)
+      setMessage('Name and number needs to be more than 1 character')
+      setTimeout(() => {
+        setMessage(null)
+      }, 3000)
+      setNewName('')
+      setNewNumber('')
+      return
+    }
+
     personService
     .create(personObject)
     .then(returnedData => {
