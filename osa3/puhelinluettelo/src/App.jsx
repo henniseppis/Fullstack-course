@@ -46,6 +46,14 @@ const App = () => {
       name: newName,
       number: newNumber
     }
+    if (!newName || !newNumber) {
+      setErrorMessage(true)
+      setMessage('Name and number are required')
+      setTimeout(() => {
+        setMessage(null)
+      }, 3000)
+      return
+    }
     personService
     .create(personObject)
     .then(returnedData => {
