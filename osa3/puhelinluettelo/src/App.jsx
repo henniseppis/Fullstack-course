@@ -40,32 +40,17 @@ const App = () => {
             setMessage(null)
           }, 3000)
         })
-      }
+        .catch(error => {
+          setErrorMessage(true)
+          setMessage(error.response.data.error.split(': ').pop())
+          setTimeout(() => {
+            setMessage(null)
+          }, 3000)
+      })}
     } else {
     const personObject = {
       name: newName,
       number: newNumber
-    }
-    if (!newName || !newNumber) {
-      setErrorMessage(true)
-      setMessage('Name and number are required')
-      setTimeout(() => {
-        setMessage(null)
-      }, 3000)
-      setNewName('')
-      setNewNumber('')
-      return
-    }
-
-    if (newName.length <= 1 || newNumber <=1 ) {
-      setErrorMessage(true)
-      setMessage('Name and number needs to be more than 1 character')
-      setTimeout(() => {
-        setMessage(null)
-      }, 3000)
-      setNewName('')
-      setNewNumber('')
-      return
     }
 
     personService
@@ -76,6 +61,13 @@ const App = () => {
       setMessage(
         `'${newName}' added`
       )
+      setTimeout(() => {
+        setMessage(null)
+      }, 3000)
+    })
+    .catch(error => {
+      setErrorMessage(true)
+      setMessage(error.response.data.error.split(': ').pop())
       setTimeout(() => {
         setMessage(null)
       }, 3000)
@@ -135,6 +127,10 @@ const App = () => {
       <Notification message={message} isError={errorMessage} />
       <Filter text = {"Filter shown with:"} filter={Show} onChange={handleShowChange}/>
       <h2>Add new</h2>
+      <ul>
+        <li>Name must be at least 3 characters</li>
+        <li>Number must be at least 8 characters and given in format XX-xxxxxxxx or XXX-xxxxx</li>
+      </ul>
       <Form onSubmit={addPerson} 
       name = {newName} 
       number = {newNumber}
