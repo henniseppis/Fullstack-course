@@ -9,4 +9,4 @@ Part 1
 [Anekdootit, exercises 1.11-1.14](https://github.com/henniseppis/Fullstack-course/tree/main/osa1/anekdootit/anekdootit/src)    
 
 Part 2  
-coming soon
+[Countries] (https://github.com/henniseppis/Fullstack-course/tree/main/osa2/countries)  
