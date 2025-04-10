@@ -13,7 +13,7 @@ Part 2
 [Kurssitiedot](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/kurssitiedot)  
 [Puhelinluettelo](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/puhelinluettelo)
 
-not done: 2.19
+not done: 2.20
 
 Part 3  
 [Backend part 3](https://github.com/henniseppis/Fullstack_part3)  
