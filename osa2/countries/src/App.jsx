@@ -1,9 +1,21 @@
 import { useState, useEffect } from 'react'
 import countryService from "./services/countries"
 
-const Filter = ({ text, onChange  }) => {
+const Button = (props) => (
+  <button type="button" onClick={props.onClick}>
+    {props.text}
+  </button>
+);
+
+const Filter = (props) => {
   return (
-  <p>find countries <input value={text} onChange={onChange}/></p>
+  <div>
+    <h2>Find countries</h2>
+    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <input value={props.text} onChange={props.onChange} />
+      <Button text="Empty the textbox" onClick={props.onClick} />
+    </div>
+  </div>
   )
 }
 
@@ -23,6 +35,15 @@ const App = () => {
   const handleShowChange = (event) => {
     setShow(event.target.value)
   };
+
+  const handleButtonClick = (country) => {
+    setShow(country.name.common);
+  };
+
+  const handleButtonClickEmpty = () => {
+    setShow("");
+  };
+
 
   const filteredCountries = 
   Countries.filter((country) =>
@@ -56,7 +77,10 @@ const App = () => {
     whatToShow = (
       <ul>
         {filteredCountries.map((country) => (
-          <li key={country.name.common}>{country.name.common}</li>
+          <li key={country.name.common}>
+            {country.name.common} 
+            <Button text={"Show"} onClick={() => handleButtonClick(country)}/>
+          </li>
         ))}
       </ul>
     )
@@ -64,7 +88,7 @@ const App = () => {
   
   return (
     <>
-    <Filter text = {Show} onChange={handleShowChange}/>
+    <Filter text = {Show} onChange={handleShowChange} onClick={() => handleButtonClickEmpty()}/>
     {whatToShow}
      </>
   )
