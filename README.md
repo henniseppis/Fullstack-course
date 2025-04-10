@@ -10,3 +10,4 @@ Part 1
 
 Part 2  
 [Countries](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/countries)  
+[Kurssitiedot](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/kurssitiedot)
