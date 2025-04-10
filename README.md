@@ -16,5 +16,5 @@ Part 2
 Part 3  
 [Backend part 3](https://github.com/henniseppis/Fullstack_part3)  
 [Frontend part 3](https://github.com/henniseppis/Fullstack-course/tree/main/osa3/puhelinluettelo)  
-[Render page](https://fullstack-part3-j0tt.onrender.com)
+[Phonebook in Render](https://fullstack-part3-j0tt.onrender.com)
 
