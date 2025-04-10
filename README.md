@@ -13,7 +13,7 @@ Part 2
 [Kurssitiedot](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/kurssitiedot)  
 [Puhelinluettelo](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/puhelinluettelo)
 
-Part 3
+Part 3  
 [Backend part 3](https://github.com/henniseppis/Fullstack_part3)  
 [Frontend part 3](https://github.com/henniseppis/Fullstack-course/tree/main/osa3/puhelinluettelo)  
 [Render page](https://fullstack-part3-j0tt.onrender.com)
