@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/67ff575c670741d6d4829485 
+Content-Type: application/json
+
+{
+  "title": "Leipiä",
+  "author": "Rolle Ruokanen",
+  "url": "kolmosweepisteruokapistecom",
+  "likes": 4
+}
