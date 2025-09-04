@@ -13,11 +13,16 @@ Part 2
 [Kurssitiedot](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/kurssitiedot)  
 [Puhelinluettelo](https://github.com/henniseppis/Fullstack-course/tree/main/osa2/puhelinluettelo)
 
-not done: 2.20
+everything done except 2.20
 
 Part 3  
 [Backend part 3](https://github.com/henniseppis/Fullstack_part3)  
 [Frontend part 3](https://github.com/henniseppis/Fullstack-course/tree/main/osa3/puhelinluettelo)  
 [Phonebook in Render](https://fullstack-part3-j0tt.onrender.com)
 
-not done: 3.8
+everything done except 3.8
+
+Part 4
+[Blogilista](https://github.com/henniseppis/Fullstack-course/tree/main/osa4/blogilista)
+
+everything done except 4.6 & 4.7
