@@ -22,7 +22,7 @@ Part 3
 
 everything done except 3.8
 
-Part 4
+Part 4  
 [Blogilista](https://github.com/henniseppis/Fullstack-course/tree/main/osa4/blogilista)
 
 everything done except 4.6 & 4.7
