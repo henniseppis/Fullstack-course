@@ -26,3 +26,8 @@ Part 4
 [Blogilista](https://github.com/henniseppis/Fullstack-course/tree/main/osa4/blogilista)
 
 everything done except 4.6 & 4.7
+
+
+Part 5  
+[Blogilista Frontend](https://github.com/henniseppis/Fullstack-course/tree/main/osa5/bloglist-frontend)
+
