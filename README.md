@@ -30,4 +30,6 @@ everything done except 4.6 & 4.7
 
 Part 5  
 [Blogilista Frontend](https://github.com/henniseppis/Fullstack-course/tree/main/osa5/bloglist-frontend)
+[Blogilista E2E tests](https://github.com/henniseppis/Fullstack-course/tree/main/osa5/part5-tests)
 
+everything done except 5.20-5.23
